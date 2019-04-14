@@ -71,19 +71,22 @@
       <name>Example Repository</name>
       <url>file:/home/maven/Mavenrepo</url>
     </repository>
-  </repositories>
+  <!--  </repositories>
          
   <distributionManagement>
   <repositories>
-    <repository>
+    -->
+  <repository>
       <id>myMavenRepo.write</id>
       <name>Example Repository</name>
       <url>file:/home/maven/Mavenrepo</url>
     </repository>
+           
   </repositories>
-    </distributionManagement>
          
- <!--   <distributionManagement>
+ <!--    </distributionManagement>
+         
+   <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
             <url>https://mymavenrepo.com/repo/X3cRkXGWnF5iUQK0h63D/</url>
