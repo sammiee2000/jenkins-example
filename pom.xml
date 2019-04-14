@@ -55,18 +55,39 @@
 
     </dependencies>
 
-    <repositories>
+ <!-- <repositories>
         <repository>
             <id>myMavenRepo.read</id>
             <url>https://mymavenrepo.com/repo/zSrJi2rfF7L8to9BBBdy/</url>
         </repository>
     </repositories>
 
-    <distributionManagement>
+  -->
+        
+ 
+  <repositories>
+    <repository>
+      <id>myMavenRepo.read</id>
+      <name>Example Repository</name>
+      <url>file:/home/maven/Mavenrepo</url>
+    </repository>
+  </repositories>
+         
+  <distributionManagement>
+  <repositories>
+    <repository>
+      <id>myMavenRepo.write</id>
+      <name>Example Repository</name>
+      <url>file:/home/maven/Mavenrepo</url>
+    </repository>
+  </repositories>
+    </distributionManagement>
+         
+ <!--   <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
             <url>https://mymavenrepo.com/repo/X3cRkXGWnF5iUQK0h63D/</url>
         </repository>
     </distributionManagement>
-
+  -->
 </project>
